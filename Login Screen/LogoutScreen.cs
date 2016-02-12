@@ -19,7 +19,7 @@ namespace Login_Screen
 
         private void buttonLogout_Click(object sender, EventArgs e)
         {
-            
+            Application.Exit();
         }
     }
 }
