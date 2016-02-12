@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//created by Jess Nguyen
+// Feb 12, 2016
 namespace Login_Screen
 {
     public partial class Form1 : Form
