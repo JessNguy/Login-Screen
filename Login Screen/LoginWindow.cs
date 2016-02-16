@@ -19,6 +19,8 @@ namespace Login_Screen
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
+            
+
             string username = "Jess";
             string inputUser = textBoxUsername.Text;
             string password = "1233";
@@ -29,9 +31,9 @@ namespace Login_Screen
                 Form f = this.FindForm();
                 f.Controls.Remove(this);
                 LogoutScreen ls = new LogoutScreen();
-                this.Controls.Add(ls);
+                f.Controls.Add(ls);
             }
-            else
+            else 
             {
                 labelIncorrect.Text = "Either your username or password is incorrect. Please try again.";
             }
